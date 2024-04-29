@@ -1,3 +1,31 @@
+# Book-Library-App-using-react.js-openlib-api-master
+
+Build a mobile application for a book library using **react.js** and **Open Library API**. 
+
+Application should contain:
+
+* Home Page: This page contains of the following
+    * Search bar to search books
+    * List of books rendered as cards
+
+* Create a component that displays a list of books. Each book item should display book cover, title, author, published year and a book status button that tells whether the book has been 
+  read or not.
+
+* Use https://openlibrary.org/people/mekBot/books/already-read.json to render a books list containing at least 20 items. All book item values required above except book status can be 
+  found in each object in this JSON response.
+
+* **cover_id** can be found in the book object obtained in the JSON above. Use the cover_id in this API to get the cover image: https://covers.openlibrary.org/b/id/{cover_id}-M.jpg
+
+* Book status button will be in a dynamic state. When the button is clicked, the book's status should toggle between "Read" and "Unread" and displayed accordingly. If book status is read 
+  then the button should turn green with the text “Read”, else if book status is unread then the button should be a transparent button with a border.
+
+* Search Page:
+
+    * Clicking search bar on home page should allow users to search for books by title
+    * Display the search results in a list same as home page UI
+
+* For rendering search results refer this : https://openlibrary.org/dev/docs/api/search
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
